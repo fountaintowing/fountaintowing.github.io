@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fountain Automotive Transport & Logistics | Tow Truck Service – Central Coast NSW</title>
+  <meta name="description" content="Tow truck service on the Central Coast NSW. Breakdown and accident towing, workshop transfers and vehicle transport. Call 0448 498 899." />
+  <style>
+    :root{
+      --bg:#071225; --card:#0d1b33; --text:#f3f7ff; --muted:#b9c6ff;
+      --accent:#4ea1ff; --accent2:#22c55e; --border:rgba(255,255,255,.12);
+      --shadow:0 18px 45px rgba(0,0,0,.35); --radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 700px at 15% 10%, rgba(78,161,255,.22), transparent 60%),
+        radial-gradient(1000px 700px at 85% 25%, rgba(34,197,94,.18), transparent 55%),
+        var(--bg);
+      line-height:1.55;
+    }
+    a{color:inherit}
+    .wrap{max-width:1100px;margin:0 auto;padding:22px}
+    header{
+      position:sticky;top:0;z-index:10;
+      backdrop-filter: blur(12px);
+      background: rgba(7,18,37,.75);
+      border-bottom:1px solid var(--border);
+    }
+    .nav{
+      display:flex;align-items:center;justify-content:space-between;gap:16px;
+      max-width:1100px;margin:0 auto;padding:12px 22px;
+    }
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800}
+    .logo{
+      width:38px;height:38px;border-radius:12px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: var(--shadow);
+    }
+    .navlinks{display:flex;gap:10px;flex-wrap:wrap}
+    .navlinks a{
+      text-decoration:none;padding:8px 10px;border-radius:12px;
+      border:1px solid transparent;color:var(--muted)
+    }
+    .navlinks a:hover{border-color:var(--border);color:var(--text)}
+    .hero{
+      padding:46px 0 14px;
+      display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:start;
+    }
+    h1{font-size:42px;line-height:1.08;margin:0 0 12px}
+    p{margin:0 0 14px;color:var(--muted)}
+    .pillrow{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 14px}
+    .pill{
+      padding:8px 12px;border:1px solid var(--border);
+      border-radius:999px;background: rgba(255,255,255,.04);
+      color:var(--muted);font-size:13px
+    }
+    .ctaRow{display:flex;gap:12px;flex-wrap:wrap;margin-top:6px}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:12px 14px;border-radius:14px;text-decoration:none;font-weight:800;
+      border:1px solid var(--border); background: rgba(255,255,255,.06);
+      box-shadow: 0 12px 26px rgba(0,0,0,.25);
+    }
+    .btn.primary{
+      border-color: rgba(78,161,255,.45);
+      background: linear-gradient(135deg, rgba(78,161,255,.95), rgba(34,197,94,.85));
+      color:#06101f;
+    }
+    .card{
+      background: rgba(13,27,51,.86);
+      border:1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .heroCard{padding:18px}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;margin-top:18px}
+    .col12{grid-column: span 12}
+    .col6{grid-column: span 6}
+    .tile{padding:16px}
+    h2{margin:0 0 10px;font-size:22px}
+    h3{margin:0 0 6px;font-size:16px}
+    .list{margin:10px 0 0;padding:0;list-style:none}
+    .list li{padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+    .list li:last-child{border-bottom:none}
+    .small{font-size:12px;color:var(--muted)}
+    .footer{
+      margin:26px 0 10px;padding:16px;text-align:center;
+      border-top:1px solid var(--border);color:var(--muted)
+    }
+    @media (max-width: 860px){
+      .hero{grid-template-columns:1fr}
+      .col6{grid-column: span 12}
+      h1{font-size:34px}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <div>
+        <div>Fountain Automotive Transport & Logistics</div>
+        <div class="small">Tow Truck Service • Central Coast NSW</div>
+      </div>
+    </div>
+    <nav class="navlinks">
+      <a href="#services">Services</a>
+      <a href="#truck">Truck</a>
+      <a href="#area">Service Area</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <h1>Reliable towing & vehicle transport across the Central Coast.</h1>
+      <p>
+        Owner-operator tow truck service for breakdowns, accident tows, workshop transfers and vehicle movements.
+        Fast response and clear communication.
+      </p>
+
+      <div class="pillrow">
+        <span class="pill">Breakdowns</span>
+        <span class="pill">Accident towing</span>
+        <span class="pill">Workshop transfers</span>
+        <span class="pill">Vehicle transport</span>
+        <span class="pill">After-hours (edit if needed)</span>
+      </div>
+
+      <div class="ctaRow">
+        <a class="btn primary" href="tel:+61448498899">📞 Call: 0448 498 899</a>
+        <a class="btn" href="sms:+61448498899?&body=Hi%20I%20need%20a%20tow.%20My%20pickup%20location%20is%20">💬 Text us</a>
+        <a class="btn" href="mailto:fountainautotransport@gmail.com">✉️ Email</a>
+      </div>
+
+      <p class="small" style="margin-top:10px">
+        Based at: 7 Vernon Ave, Gorokan NSW 2263
+      </p>
+    </div>
+
+    <div class="card heroCard" id="contact">
+      <h2 style="margin:0 0 10px">Quick quote</h2>
+      <p class="small" style="margin:0 0 12px">Send pickup + drop-off suburb and vehicle type.</p>
+
+      <!-- Mailto form: free/basic, opens the customer's email app -->
+      <form action="mailto:fountainautotransport@gmail.com" method="post" enctype="text/plain" style="display:grid;gap:10px">
+        <input name="Name" placeholder="Your name" required
+               style="padding:12px;border-radius:14px;border:1px solid rgba(255,255,255,.14);background:rgba(0,0,0,.18);color:var(--text)">
+        <input name="Phone" placeholder="Best contact number" required
+               style="padding:12px;border-radius:14px;border:1px solid rgba(255,255,255,.14);background:rgba(0,0,0,.18);color:var(--text)">
+        <input name="Pickup" placeholder="Pickup suburb/address" required
+               style="padding:12px;border-radius:14px;border:1px solid rgba(255,255,255,.14);background:rgba(0,0,0,.18);color:var(--text)">
+        <input name="Dropoff" placeholder="Drop-off suburb (optional)"
+               style="padding:12px;border-radius:14px;border:1px solid rgba(255,255,255,.14);background:rgba(0,0,0,.18);color:var(--text)">
+        <input name="Vehicle" placeholder="Vehicle type (car, SUV, 4WD, dual-cab etc.)" required
+               style="padding:12px;border-radius:14px;border:1px solid rgba(255,255,255,.14);background:rgba(0,0,0,.18);color:var(--text)">
+        <textarea name="Details" placeholder="Details (won’t start / accident / flat tyre / locked out etc.)"
+                  style="padding:12px;border-radius:14px;border:1px solid rgba(255,255,255,.14);background:rgba(0,0,0,.18);color:var(--text);min-height:110px"></textarea>
+        <button class="btn primary" type="submit">Send request</button>
+        <div class="small">Submitting opens your email app to send the message.</div>
+      </form>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card tile col12" id="services">
+      <h2>Services</h2>
+      <ul class="list">
+        <li><strong>Breakdown towing</strong> <span class="small">— fast pickup and safe transport</span></li>
+        <li><strong>Accident towing</strong> <span class="small">— careful recovery and towing</span></li>
+        <li><strong>Workshop & dealer transfers</strong> <span class="small">— regular trade work welcome</span></li>
+        <li><strong>Vehicle movements / transport</strong> <span class="small">— local & long distance (edit if needed)</span></li>
+      </ul>
+    </div>
+
+    <div class="card tile col6" id="truck">
+      <h2>Truck details</h2>
+      <p class="small" style="margin-top:0">
+        1999 Isuzu NQR 450 banana-back tow truck fitted with hydraulic ramps.
+      </p>
+      <ul class="list">
+        <li><strong>Deck space:</strong> <span class="small">~5–5.2m usable</span></li>
+        <li><strong>Suitable for:</strong> <span class="small">most small to mid-size vehicles, SUVs, 4WDs, and dual-cab utes with standard trays</span></li>
+        <li><strong>Careful loading:</strong> <span class="small">hydraulic ramps for smoother approach</span></li>
+      </ul>
+    </div>
+
+    <div class="card tile col6" id="area">
+      <h2>Service area</h2>
+      <p class="small" style="margin-top:0">Central Coast NSW (update suburbs to match your real coverage):</p>
+      <ul class="list">
+        <li>Gorokan</li>
+        <li>Gosford</li>
+        <li>Wyong</li>
+        <li>Tuggerah</li>
+        <li>Lake Haven</li>
+        <li>Woy Woy</li>
+      </ul>
+      <div class="small">Tip: add the exact suburbs you want calls from.</div>
+    </div>
+
+    <div class="card tile col12" id="contact">
+      <h2>Contact</h2>
+      <ul class="list">
+        <li><strong>Phone:</strong> <a href="tel:+61448498899">0448 498 899</a></li>
+        <li><strong>Email:</strong> <a href="mailto:fountainautotransport@gmail.com">fountainautotransport@gmail.com</a></li>
+        <li><strong>Location:</strong> 7 Vernon Ave, Gorokan NSW 2263</li>
+      </ul>
+      <p class="small" style="margin-top:12px">ABN, hours, and after-hours availability can be added here if you want.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Fountain Automotive Transport & Logistics</div>
+    <div class="small">Tow Truck Service • Central Coast NSW</div>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
